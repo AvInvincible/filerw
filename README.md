@@ -3,6 +3,17 @@
 Project that help reading files placed within a project directory, without writing any extensive code. 
 It simplify the process of reading the writing files.
 
+## Add to your project 
+```
+<dependency>
+  <groupId>com.avinc</groupId>
+  <artifactId>filerw</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
+
+$mvn install
+```
+
 ## Repository 
 ***
 > https://github.com/AvInvincible/filerw <br>
