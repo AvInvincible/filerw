@@ -1,6 +1,6 @@
 # FileRW
 ***
-Project that help reading files placed within a project with writing any extensive code. 
+Project that help reading files placed within a project directory, without writing any extensive code. 
 It simplify the process of reading the writing files.
 
 ## Repository 
@@ -20,11 +20,11 @@ A list of technologies used within the project:
 ```
 Instantiate the PropertiesFileRW object 
 
-PropertiesFileRW rw = new PropertiesFileRW();
+**PropertiesFileRW rw = new PropertiesFileRW();**
 
 Set the file name using setFileName("fileName") method, which returns the PropertiesFileRW object
 Use getKey("keyName") method to get the value from the file
 
-rw.setFileName("testData").getKey("fruit1")
+**rw.setFileName("testData").getKey("fruit1")**
 ```
 Note: PropertiesFileRW internally scan the project directory to locate the file name set using setFileName() method.
